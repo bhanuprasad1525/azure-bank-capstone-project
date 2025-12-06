@@ -39,17 +39,18 @@ Tasks Completed on Day 1 :
 
    Day-02 Activities :
 
-   *  Connect Event Grid with Function App
-   *  Implement Python code for :
-       - Reading CSV from Blob
-       - Cleaning & validating records
-       - Removing duplicate transaction_id
-       - Normalizing timestamps
-       - Applying fraud detection rule
-  * Write clean data into Cosmos DB
-  * Write fraud data into FraudAlerts
-  * Test end-to-end pipeline
+      *  Connect Event Grid with Function App
+      *  Implement Python code for :
+          - Reading CSV from Blob
+          - Cleaning & validating records
+          - Removing duplicate transaction_id
+          - Normalizing timestamps
+          - Applying fraud detection rule
+      *  Write clean data into Cosmos DB
+      *  Write fraud data into FraudAlerts
+      *  Test end-to-end pipeline
 
+   
 # DAY-02 
 
 Azure ETL Pipeline Progress Report
