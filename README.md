@@ -254,6 +254,95 @@ DAY 05 Activities :
       * Review monitoring logs and finalize health checks
 
 
+# DAY - 05
+
+Reporting Preparation, Documentation & Final Validation
+
+Prepare reporting layer requirements, verify SQL DW data, finalize documentation, and outline dashboards.
+
+Tasks Completed on Day 5 :
+
+1. Power BI Reporting Preparation
+   
+   * Identified required tables for Power BI:
+       - DimCustomer
+       - DimAccount
+       - FactTransactions
+       - FraudAlerts
+   * Documented the connection steps:
+       - Power BI → Azure SQL Database
+       - Select required tables/views
+       - Configure refresh settings
+2. Dashboard Requirements Finalized
+    * Documented the dashboard layouts and KPIs for future use:
+        - Customer 360 Dashboard – Planned
+            * Customer profile view
+            * Accounts & balances
+            * Monthly spend pattern
+            * Fraud alerts linked to customer
+         - ATM vs UPI Analysis Dashboard – Planned
+            * Channel-wise transaction count
+            * Total transaction value
+            * Peak transaction time analysis
+            * Regional comparison
+         - Fraud Analytics Dashboard – Planned
+            * High-value transaction alerts
+            * Rapid ATM withdrawal alerts
+            * Alert volume by date
+            * Customer-wise fraud patterns
+              
+3. SQL Data Warehouse Validation
+      * Verified that FactTransactions, DimCustomer, DimAccount tables exist
+      * Ensured column-level correctness:
+          - TransactionID
+          - CustomerID
+          - Channel
+          - Amount
+          - Timestamp
+          - IsFraud
+
+4. End-to-End Workflow Verification
+      * Performed a logical verification of the entire pipeline:
+         - Trigger flow: Blob → Event Grid → Azure Function
+         - Processing: ETL transformations and fraud rule checks
+         - Cosmos DB → SQL DW data flow working as designed
+
+5. Final Documentation Work
+   * Finalized Day 1–Day 5 README files
+   * Added step-by-step execution workflow
+   * Inserted screenshots for:
+     - Cosmos DB containers
+     - SQL tables
+      - Azure Functions logs
+
+Outcome of Day 5 :
+   Day-05 completed the planning and validation stage for reporting, ensured SQL DW readiness, and wrapped up documentation for the entire 5-day execution timeline.
+           
+        
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
